@@ -16,7 +16,7 @@ def prt():
         LAT = str( merge.loc[bang[z],'latitude'])
         LON = str( merge.loc[bang[z],'logitude'])
         print(DAY,MONTH,YEAR,COM_NAME,VAR_NAME,MAR,MAX,MIN,MOD,DIST,LAT,LON)
-        webbrowser.open('https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=640x640&maptype=roadmap&markers=size:mid|color:red|'+LAT+','+LON+'&key=AIzaSyAnyLkZp1r7mBv99wE3stsTv0tzuUcF3Bw')
+        webbrowser.open('https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=640x640&maptype=roadmap&markers=size:mid|color:red|'+LAT+','+LON+'&key=your_api_key')
         
        
 import pandas as pd
